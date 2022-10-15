@@ -1,7 +1,5 @@
 package ua.cn.cpnu.pmp_lab_1.activities;
 
-import static java.security.AccessController.getContext;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,13 +9,10 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.CheckBox;
 import android.widget.Spinner;
-import android.widget.Toast;
-
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import ua.cn.cpnu.pmp_lab_1.R;
-import ua.cn.cpnu.pmp_lab_1.databinding.ActivityOptionsBinding;
 import ua.cn.cpnu.pmp_lab_1.model.Options;
 
 public class OptionsActivity extends AppCompatActivity {
@@ -25,7 +20,6 @@ public class OptionsActivity extends AppCompatActivity {
     public static final String EXTRA_OPTIONS = "EXTRA_OPTIONS";
     private Options options;
 
-    private ActivityOptionsBinding binding;
     private Spinner questionsNumSpinner;
     private CheckBox isHintAvailable;
 

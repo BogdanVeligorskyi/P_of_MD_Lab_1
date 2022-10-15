@@ -11,6 +11,9 @@ import java.util.List;
 public class Options implements Parcelable {
     public static final List<String> QUESTIONS_NUM = Arrays.asList
             ("5", "6", "7", "8", "9", "10");
+
+    //public static final Arrays QUESTIONS = {};
+
     public int number_of_questions;
     public boolean is_hint_available;
 

@@ -32,6 +32,7 @@ public class MenuActivity extends AppCompatActivity {
         findViewById(R.id.startButton)
                 .setOnClickListener(button -> {
                     Intent intent = new Intent(this, PlayActivity.class);
+                    intent.putExtra(PlayActivity.EXTRA_OPTIONS, options);
                     startActivity(intent);
                 });
 
