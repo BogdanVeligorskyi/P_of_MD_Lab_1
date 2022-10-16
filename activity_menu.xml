@@ -1,51 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center_horizontal"
-        android:padding="@dimen/screenPadding">
-        <include layout="@layout/part_logo" />
-        <TextView
-            android:id="@+id/titleTextView"
-            style="@style/ScreenTitle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/menu" />
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/screenPadding">
 
-        <View
-            android:layout_height="75dp"
-            android:layout_width="match_parent"/>
+    <include
+        android:id="@+id/include"
+        layout="@layout/part_logo" />
 
-        <Button
-            android:id="@+id/startButton"
-            style="@style/MenuButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/start" />
+    <TextView
+        android:id="@+id/titleTextView"
+        style="@style/ScreenTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/include"
+        android:layout_centerHorizontal="true"
+        android:text="@string/menu" />
 
-        <Button
-            android:id="@+id/optionsButton"
+    <Button
+        android:id="@+id/startButton"
         style="@style/MenuButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/options" />
-        <Button
-            android:id="@+id/quitButton"
-            style="@style/MenuButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/exit" />
+        android:layout_toStartOf="@id/optionsButton"
+        android:layout_margin="25dp"
+        android:layout_below="@id/titleTextView"
+        android:layout_centerVertical="true"
+        android:text="@string/start" />
 
-        <TextView
-            android:id="@+id/versionTextView"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_gravity="bottom"
-            android:maxHeight="90dp"
-            android:layout_weight="1"
-            android:gravity="end|bottom"
-            tools:text="Version 1.0"/>
-</LinearLayout>
+    <Button
+        android:id="@+id/optionsButton"
+        style="@style/MenuButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/titleTextView"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:text="@string/options" />
+    <Button
+        android:id="@+id/quitButton"
+        style="@style/MenuButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/titleTextView"
+        android:layout_margin="25dp"
+        android:layout_toEndOf="@id/optionsButton"
+        android:text="@string/exit" />
+
+    <TextView
+        android:id="@+id/versionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom"
+        android:maxHeight="90dp"
+        android:layout_weight="1"
+        android:gravity="end|bottom"
+        tools:text="Version 1.0"/>
+</RelativeLayout>

@@ -33,7 +33,7 @@
         android:layout_toEndOf="@id/space"
         android:gravity="end"
         android:textSize="18sp"
-        android:text="Вага питання" />
+        android:text="Earned:" />
     <View
         android:id="@+id/space_2"
         android:layout_width="10dp"
@@ -66,7 +66,6 @@
     <TextView
         android:id="@+id/text_of_question"
         android:layout_below="@id/is_hint"
-        android:layout_above="@id/button_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="22sp"
@@ -74,42 +73,43 @@
         android:text="!!!ACHTUNG ACHTUNGhhhhhhhhhhhh!!!"
         android:textAlignment="center"
         android:gravity="center" />
+
     <View
         android:id="@+id/center_square"
         android:layout_width="64dp"
         android:layout_height="64dp"
-        android:layout_centerInParent="true"/>
+        android:layout_centerInParent="true" />
     <Button
         android:id="@+id/button_4"
         android:layout_width="128dp"
         android:layout_height="64dp"
-        android:layout_marginEnd="4dp"
-        android:layout_toStartOf="@id/center_square"
+        android:layout_toEndOf="@id/center_square"
+        android:layout_below="@id/button_3"
         android:text="D: Var 4"
         android:layout_centerVertical="true"/>
+
     <Button
         android:id="@+id/button_2"
+        android:layout_below="@id/button_1"
+        android:layout_toStartOf="@id/center_square"
         android:layout_width="128dp"
         android:layout_height="64dp"
-        android:layout_marginStart="4dp"
-        android:layout_toEndOf="@id/center_square"
-        android:text="B: Var 2"
-        android:layout_centerVertical="true"/>
+        android:text="B: Var 2" />
+
     <Button
         android:id="@+id/button_1"
         android:layout_width="128dp"
         android:layout_height="64dp"
-        android:layout_above="@id/center_square"
-        android:layout_marginBottom="4dp"
-        android:layout_centerHorizontal="true"
-        android:text="A: Var 1"/>
+        android:layout_below="@id/text_of_question"
+        android:layout_toStartOf="@id/center_square"
+        android:text="A: Var 1" />
 
     <Button
         android:id="@+id/button_3"
         android:layout_width="128dp"
         android:layout_height="64dp"
-        android:layout_below="@id/center_square"
-        android:layout_marginTop="4dp"
+        android:layout_below="@id/text_of_question"
+        android:layout_toEndOf="@id/center_square"
         android:text="C: Var 3"
         android:layout_centerHorizontal="true"/>
 
@@ -119,8 +119,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="25sp"
         android:layout_marginEnd="25sp"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@id/button_2"
         android:minWidth="150dp"
-        android:text="Exit" />
+        android:text="Exit | Take the winnings" />
 
 </RelativeLayout>

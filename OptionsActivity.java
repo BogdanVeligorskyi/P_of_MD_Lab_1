@@ -35,9 +35,6 @@ public class OptionsActivity extends AppCompatActivity {
         }
         setContentView(R.layout.activity_options);
 
-        Log.i("QuestionsActivity start", "_num:" + options.number_of_questions);
-        Log.i("IsHintActivity start", "_bool:" + options.is_hint_available);
-
         setupGroupsSpinner();
         setupCheckBox();
 

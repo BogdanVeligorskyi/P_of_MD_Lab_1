@@ -1,39 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center_horizontal"
     android:padding="@dimen/screenPadding">
 
-    <include layout="@layout/part_logo"/>
-
-    <TextView
-        android:id="@+id/titleTextView"
-        style="@style/ScreenTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/options" />
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:layout_marginStart="25sp"
-        android:layout_gravity="left"
+        android:layout_toStartOf="@id/questionsSpinner"
+        android:layout_centerVertical="true"
         android:text="@string/number_of_questions" />
+
+    <View
+        android:id="@+id/center_block"
+        android:layout_width="45dp"
+        android:layout_height="5dp"
+        android:layout_centerInParent="true"/>
 
     <Spinner
         android:contentDescription="@string/number_of_questions"
         android:id="@+id/questionsSpinner"
         style="@style/Widget.AppCompat.Spinner.Underlined"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="25sp"
-        android:layout_marginEnd="25sp"
-        android:layout_gravity="start"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@id/center_block"
+        android:layout_marginEnd="25dp"
         android:background="@android:drawable/btn_dropdown"/>
 
     <CheckBox
@@ -41,13 +35,15 @@
         style="@style/MenuButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="25sp"
-        android:layout_marginEnd="25sp"
-        android:layout_gravity="start"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/center_block"
+
         android:textColor="#000000"
         android:background="#ffffff"
         android:text="@string/hint_availability"/>
 
     <include layout="@layout/activity_back"/>
 
-</LinearLayout>
+</RelativeLayout>

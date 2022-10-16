@@ -3,12 +3,7 @@ package ua.cn.cpnu.pmp_lab_1.activities;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
-import android.widget.CheckBox;
-import android.widget.Spinner;
-
 import ua.cn.cpnu.pmp_lab_1.R;
-import ua.cn.cpnu.pmp_lab_1.databinding.ActivityMenuBinding;
 import ua.cn.cpnu.pmp_lab_1.model.Options;
 
 import androidx.annotation.NonNull;
@@ -44,9 +39,7 @@ public class MenuActivity extends AppCompatActivity {
                 });
 
         findViewById(R.id.quitButton)
-                .setOnClickListener(button -> {
-                    finish();
-                });
+                .setOnClickListener(button -> finish());
 
     }
 
