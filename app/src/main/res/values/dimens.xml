@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="screenPadding">16dp</dimen>
+    <dimen name="appNameTextSize">20sp</dimen>
+    <dimen name="appTitleMargin">16dp</dimen>
+    <dimen name="logoSize">64dp</dimen>
+    <dimen name="logoMargin">24dp</dimen>
+    <dimen name="buttonRadius">4dp</dimen>
+    <dimen name="menuButtonWidth">180dp</dimen>
+    <dimen name="menuItemSpace">24dp</dimen>
+    <dimen name="menuItemHeight">52dp</dimen>
+
+    <dimen name="margin_activity_options">25sp</dimen>
+    <dimen name="view_layout_height">75dp</dimen>
+    <dimen name="variant_button_width">128dp</dimen>
+    <dimen name="variant_button_height">64dp</dimen>
+    <dimen name="activity_play_text_size">18sp</dimen>
+    <dimen name="activity_play_question_text_size">22sp</dimen>
+    <dimen name="center_square_width_height">64dp</dimen>
+    <dimen name="margin_activity_play">4dp</dimen>
+    <dimen name="ok_cancel_buttons_min_width">120dp</dimen>
+    <dimen name="ok_cancel_buttons_min_height">60dp</dimen>
+    <dimen name="ok_cancel_margin">12dp</dimen>
+    <dimen name="item_group_text_size">14sp</dimen>
+    <dimen name="activity_play_space_1_width">10dp</dimen>
+    <dimen name="activity_play_15_margin">15dp</dimen>
+    <dimen name="activity_play_end_button_min_width">150dp</dimen>
+    <dimen name="activity_play_30_margin">30dp</dimen>
+    <dimen name="activity_play_10_margin">10dp</dimen>
+    <dimen name="activity_play_25_margin">25dp</dimen>
+    <dimen name="activity_play_52_margin">52dp</dimen>
+    <dimen name="land_activity_menu_25_margin">25dp</dimen>
+    <dimen name="land_activity_options_25_margin">25dp</dimen>
+    <dimen name="land_activity_options_view_height">5dp</dimen>
+    <dimen name="land_activity_options_view_width">45dp</dimen>
+
+</resources>

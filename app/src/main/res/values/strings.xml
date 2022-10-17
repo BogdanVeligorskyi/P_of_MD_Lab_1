@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Who wants to be a millionaire?</string>
+    <string name="app_logo">App Logo</string>
+    <string name="app_version">App Version: %1$s</string>
+    <string name="menu">Main Menu</string>
+    <string name="start">Start</string>
+    <string name="options">Options</string>
+    <string name="number_of_questions">Number of Questions</string>
+    <string name="hint_availability">Hint Availability</string>
+    <string name="hint">Hint</string>
+    <string name="earned">Earned:</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="exit">Exit</string>
+    <string name="take_winnings">Exit | Take the winnings</string>
+    <string name="question_no">Question 1 of 5</string>
+    <string name="earned_price">$500000</string>
+    <string name="text_of_current_question">Sample text: during the game it`ll be replaced according to question</string>
+    <string name="text_of_button_4">D: VAR 4</string>
+    <string name="text_of_button_3">C: VAR 3</string>
+    <string name="text_of_button_2">B: VAR 2</string>
+    <string name="text_of_button_1">A: VAR 1</string>
+    <string name="error">Error! Please check your internet connection and try again</string>
+</resources>
