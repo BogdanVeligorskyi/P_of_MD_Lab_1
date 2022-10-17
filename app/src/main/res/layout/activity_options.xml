@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="@dimen/screenPadding">
+
+    <include layout="@layout/part_logo"/>
+
+    <TextView
+        android:id="@+id/title_options"
+        style="@style/ScreenTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/options" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_activity_options"
+        android:layout_marginStart="@dimen/margin_activity_options"
+        android:layout_gravity="start"
+        android:text="@string/number_of_questions" />
+
+    <Spinner
+        android:id="@+id/questions_spinner"
+        style="@style/Widget.AppCompat.Spinner.Underlined"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_activity_options"
+        android:layout_marginEnd="@dimen/margin_activity_options"
+        android:layout_gravity="start"
+        android:contentDescription="@string/number_of_questions"
+        android:background="@android:drawable/btn_dropdown"/>
+
+    <CheckBox
+        android:id="@+id/hint_availability"
+        style="@style/MenuButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_activity_options"
+        android:layout_marginEnd="@dimen/margin_activity_options"
+        android:layout_gravity="start"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:text="@string/hint_availability"/>
+
+    <include layout="@layout/activity_back"/>
+
+</LinearLayout>

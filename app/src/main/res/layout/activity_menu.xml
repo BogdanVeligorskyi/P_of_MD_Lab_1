@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:padding="@dimen/screenPadding">
+
+        <include layout="@layout/part_logo" />
+
+        <TextView
+            android:id="@+id/main_menu"
+            style="@style/ScreenTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu" />
+
+        <View
+            android:layout_height="@dimen/view_layout_height"
+            android:layout_width="match_parent"/>
+
+        <Button
+            android:id="@+id/start_button"
+            style="@style/MenuButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start" />
+
+        <Button
+            android:id="@+id/options_button"
+            style="@style/MenuButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/options" />
+
+        <Button
+            android:id="@+id/quit_button"
+            style="@style/MenuButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exit" />
+
+</LinearLayout>
