@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/screenPadding">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/part_logo" />
+
+    <TextView
+        android:id="@+id/main_menu"
+        style="@style/ScreenTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/include"
+        android:layout_centerHorizontal="true"
+        android:text="@string/menu" />
+
+    <Button
+        android:id="@+id/start_button"
+        style="@style/MenuButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@id/options_button"
+        android:layout_margin="@dimen/land_activity_menu_25_margin"
+        android:layout_below="@id/main_menu"
+        android:layout_centerVertical="true"
+        android:text="@string/start" />
+
+    <Button
+        android:id="@+id/options_button"
+        style="@style/MenuButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/main_menu"
+        android:layout_margin="@dimen/land_activity_menu_25_margin"
+        android:text="@string/options" />
+    <Button
+        android:id="@+id/quit_button"
+        style="@style/MenuButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/main_menu"
+        android:layout_margin="@dimen/land_activity_menu_25_margin"
+        android:layout_toEndOf="@id/options_button"
+        android:text="@string/exit" />
+
+</RelativeLayout>
