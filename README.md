@@ -1,7 +1,31 @@
-# P_of_MD_Lab_1
-Repository for the 1st laboratory work from the discipline "Programming of mobile devices - Програмування мобільних пристроїв". 
-
-In the process of development Android Studio and Java were used.
-
-This repository contains all files, related to individual task (variant 5). 
+# Who wants to be a Millionaire ? (Android)
+ 
 A goal of this individual task is to recreate well-known game "Who wants to be a millionaire" in simple form.
+
+![alt text](https://github.com/BogdanVeligorskyi/P_of_MD_Lab_1/blob/main/screen_1.png?raw=true)
+![alt text](https://github.com/BogdanVeligorskyi/P_of_MD_Lab_1/blob/main/screen_2.png?raw=true)
+![alt text](https://github.com/BogdanVeligorskyi/P_of_MD_Lab_1/blob/main/screen_3.png?raw=true)
+![alt text](https://github.com/BogdanVeligorskyi/P_of_MD_Lab_1/blob/main/screen_4.png?raw=true)
+
+## Features
+
+1. 5-10 questions.
+2. 1 hint.
+3. 4 options to answer.
+
+## Available languages
+
+English
+
+## Used technologies
+
+Java 8, Android Studio (2021.3).
+
+## How to run application
+
+In order to run this application, you need to download APK file (can be found in Releases) and run it.
+NOTE: Application can be run on any Android device with at least Android 5.0 OS version.
+
+## Demonstrational video
+
+[YouTube](https://youtu.be/Qjgc-oZ8Na8?si=BuxkDl7K1367iUXr)
