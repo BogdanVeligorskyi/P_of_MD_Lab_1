@@ -2,10 +2,10 @@
  
 A goal of this individual task is to recreate well-known game "Who wants to be a millionaire" in simple form.
 
-![alt text](https://github.com/BogdanVeligorskyi/P_of_MD_Lab_1/blob/main/screen_1.png?raw=true)
-![alt text](https://github.com/BogdanVeligorskyi/P_of_MD_Lab_1/blob/main/screen_2.png?raw=true)
-![alt text](https://github.com/BogdanVeligorskyi/P_of_MD_Lab_1/blob/main/screen_3.png?raw=true)
-![alt text](https://github.com/BogdanVeligorskyi/P_of_MD_Lab_1/blob/main/screen_4.png?raw=true)
+![alt text](https://github.com/BogdanVeligorskyi/P_of_MD_Lab_1/blob/main/screen_1.jpg?raw=true)
+![alt text](https://github.com/BogdanVeligorskyi/P_of_MD_Lab_1/blob/main/screen_2.jpg?raw=true)
+![alt text](https://github.com/BogdanVeligorskyi/P_of_MD_Lab_1/blob/main/screen_3.jpg?raw=true)
+![alt text](https://github.com/BogdanVeligorskyi/P_of_MD_Lab_1/blob/main/screen_4.jpg?raw=true)
 
 ## Features
 
